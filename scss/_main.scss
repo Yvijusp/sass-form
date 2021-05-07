@@ -1,0 +1,49 @@
+.form {
+  &--container {
+    margin-top: 145px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  &--item {
+    @extend %wh100;
+
+    & h2 {
+      @extend %ubuntu;
+      color: $h2;
+      font-weight: 400;
+      font-size: $h2-font;
+      margin-top: 20px;
+    }
+
+    & img {
+      @extend %wh100;
+    }
+    & input {
+      @extend %input-area;
+      margin: 20px 0;
+    }
+    & textarea {
+      @extend %input-area;
+      margin: 20px 0;
+    }
+
+    & button {
+      @extend %button;
+      @extend %open-sans;
+      color: $h2;
+    }
+
+    & ul {
+      list-style: none;
+      margin-top: 10px;
+      & li {
+        display: inline-block;
+        margin-right: 10px;
+        & i {
+          @extend %icon-style;
+        }
+      }
+    }
+  }
+}

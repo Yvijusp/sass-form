@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar--links {
+  list-style: none;
+  display: table;
+}
+.navbar--link {
+  display: table-cell;
+  padding: 20px;
+}
+.navbar--link:hover {
+  background-color: #4d4d4d;
+}
+.navbar--link:hover .navbar--link-item {
+  color: white;
+}
+.navbar--link-item {
+  text-decoration: none;
+  color: #a1a1a1;
+  letter-spacing: 0.5px;
+  margin: 0 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form--item h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.form--item button {
+  font-family: "Open Sans", sans-serif;
+}
+
+.form--item button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.form--item img, .form--item {
+  height: 100%;
+  width: 100%;
+}
+
+.form--item ul li i {
+  color: white;
+  background-color: #333333;
+  border-radius: 50%;
+  padding: 10px;
+  width: 38px;
+  text-align: center;
+}
+
+.form--item textarea, .form--item input {
+  outline: none;
+  border: none;
+  color: #4d4d4d;
+  background-color: #f2f2f2;
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.form--container {
+  margin-top: 145px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.form--item h2 {
+  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: 20px;
+}
+.form--item input {
+  margin: 20px 0;
+}
+.form--item textarea {
+  margin: 20px 0;
+}
+.form--item button {
+  color: #4d4d4d;
+}
+.form--item ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.form--item ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer {
+  background-color: #333333;
+  padding: 20px;
+}
+.footer p {
+  text-align: center;
+  color: white;
+  width: 300px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
