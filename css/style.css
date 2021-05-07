@@ -75,9 +75,6 @@
   align-items: center;
 }
 
-.form {
-  height: 100vh;
-}
 .form--container {
   margin-top: 145px;
   display: grid;
@@ -110,6 +107,9 @@
 .footer {
   background-color: #333333;
   padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .footer p {
   text-align: center;

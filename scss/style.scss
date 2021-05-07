@@ -104,6 +104,9 @@ $h2-font: 36px;
 .footer {
   background-color: $footer;
   padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   & p {
     text-align: center;
     color: white;
