@@ -75,6 +75,9 @@
   align-items: center;
 }
 
+.form {
+  height: 100vh;
+}
 .form--container {
   margin-top: 145px;
   display: grid;
